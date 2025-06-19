@@ -1,0 +1,151 @@
+  *{
+    padding: 0;
+    margin: 0;
+  }
+
+  .header{
+    background-color: black;
+    color: white;
+    padding: 10px;
+    }
+
+  li{
+    background-color: black;
+    color: grey;  
+    display: inline;
+  }
+
+  h1{
+    padding:10px;
+    font-size: 40px;
+    padding-right: 6px;
+    padding-right: 3px;
+  }
+
+  ul{
+    padding-top: 2px;
+    padding-bottom: 5px;
+    padding-left: 3px;
+  }
+
+  p{
+    margin-top: 10px;
+    padding-left: 20px;
+    font-weight: bold;
+  }
+
+  .welcome h2{
+    padding-left: 13px;
+    padding-bottom: 7px;
+    font-size: 40px;
+  }
+  
+  .gallery-img {
+  width: 200px;
+  height: 200px; 
+  border: 3px solid black;
+  object-fit: cover;
+  display: block;
+  margin: 0 auto 5px auto;
+ }
+
+  .welcome{
+    color: black;
+    padding: 10px;
+    margin-top: 20px;
+    margin-bottom: 5px;
+  }
+
+  .food-gallery {
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+  flex-wrap: wrap;
+  margin-bottom: 50px;
+  padding: 20px;
+}
+
+  .food1, .food2, .food3 {
+  border: 4px solid black;
+  padding: 20px;
+  text-align: center;
+  width: 250px;
+  box-shadow: 0px 0px 10px rgba(0,0,0,0.1);
+}
+
+.food1 h5, .food2 h5, .food3 h5 {
+  font-size: 16px;
+  font-weight: bold;
+  margin: 10px 0;
+  padding:20px;
+}
+
+.food1 h6, .food2 h6, .food3 h6 {
+  background-color: black;
+  color: white;
+  padding: 8px 16px;
+  display: inline-block;
+  margin-top: 60px;
+  font-size: 14px;
+  cursor: pointer;
+  
+}
+
+.contact{
+    background-color: black;
+    color: white;
+    padding: 20px;
+    display: block;
+    font-size: 1.5rem;
+    }
+
+  h2{
+      padding-right: 6px;
+    }
+
+  h4{
+    background-color: yellow;
+    color: black;
+    display: block;
+    margin-top: 10px;
+    padding: 4px;
+    }
+
+h5,h6{
+    padding: 5px;
+  }
+
+table{
+    margin: 5px;
+  }
+
+form{
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-right: 42px;
+    padding-left: 25px;
+  }
+
+td{
+    margin: 2px;
+    padding: 2px;
+  }
+
+.food1, .food2, .food3 {
+  text-align: center;
+}
+
+.food1 h5, .food1 h6,
+.food2 h5, .food2 h6,
+.food3 h5, .food3 h6 {
+  display: inline-block;
+  margin: 0 auto;
+}
+
+h6 {
+  background-color: black;
+  color: white;
+  padding: 6px 12px;
+  display: inline-block;
+  margin-top: 10px;
+}
